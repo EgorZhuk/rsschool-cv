@@ -13,3 +13,22 @@
 ## About me
 
 Hello, my name is Egor. I am starting my journey in web development and am interested in career development. .I want to get the knowledge and skills that are needed for employment in the company.
+
+## Skills
+
+- HTML
+- CSS/SCSS
+- JS
+- Git
+- Figma
+- Photoshop
+
+## Code examples
+
+```
+function even_or_odd(number) {
+  if(number%2 ==0){
+    return 'Even'
+  } else return 'Odd'
+}
+```
