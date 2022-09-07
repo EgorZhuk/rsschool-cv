@@ -32,3 +32,16 @@ function even_or_odd(number) {
   } else return 'Odd'
 }
 ```
+
+## Education
+
+- Mogilev state College of art
+- [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp)
+- [JavaScript + React](https://www.udemy.com/course/javascript_full/)
+
+## Languages
+
+- **English:** A2
+- **Belarussian:** Native
+- **Russian:** Native
+- **Polish:** A1/A2
