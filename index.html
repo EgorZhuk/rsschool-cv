@@ -5,45 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV#2. HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/1d718d2933.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <header>
-      <div>
-        <h2>Egor Zhuk</h2>
-        <article>Web developer</article>
-      </div>
-      <div>
-        <ul>
-          <li>
-            <i class="icon fa-sharp fa-solid fa-location-dot"></i
-            ><span>Location:</span>Belarus
-          </li>
-          <li>
-            <i class="fa-solid fa-phone"></i><span>Phone:</span
-            ><a href="tel:+375291446385">+375-29-144-63-85</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-envelope"></i><span>E-mail:</span
-            ><a href="mailto:egorbug@gmail.com">egorbug@gmail.com</a>
-          </li>
-          <li>
-            <i class="fa-brands fa-github"></i><span>GitHub:</span
-            ><a href="https://github.com/EgorZhuk" target="_blank">Egor Zhuk</a>
-          </li>
-          <li>
-            <i class="fa-brands fa-linkedin"></i><span>LinkedIn:</span
-            ><a
-              href="https://www.linkedin.com/in/egor-zhuk-4446b5183/"
-              target="_blank"
-              >Egor Zhuk</a
-            >
-          </li>
-        </ul>
-      </div>
-    </header>
+    <div class="container">
+      <header class="header">
+        <div class="title">
+          <h2 class="header__title">Egor Zhuk</h2>
+          <article class="header__subtitle">Web developer</article>
+        </div>
+        <div class="contact">
+          <ul class="contact__list">
+            <li class="contact__list-item">
+              <i class="icon fa-sharp fa-solid fa-location-dot"></i
+              ><span>Location:</span>Belarus
+            </li>
+            <li class="contact__list-item">
+              <i class="icon fa-solid fa-phone"></i><span>Phone:</span
+              ><a href="tel:+375291446385">+375-29-144-63-85</a>
+            </li>
+            <li class="contact__list-item">
+              <i class="icon fa-solid fa-envelope"></i><span>E-mail:</span
+              ><a href="mailto:egorbug@gmail.com">egorbug@gmail.com</a>
+            </li>
+            <li class="contact__list-item">
+              <i class="icon fa-brands fa-github"></i><span>GitHub:</span
+              ><a href="https://github.com/EgorZhuk" target="_blank"
+                >Egor Zhuk</a
+              >
+            </li>
+            <li class="contact__list-item">
+              <i class="icon fa-brands fa-linkedin"></i><span>LinkedIn:</span
+              ><a
+                href="https://www.linkedin.com/in/egor-zhuk-4446b5183/"
+                target="_blank"
+                >Egor Zhuk</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
   </body>
 </html>
