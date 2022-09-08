@@ -65,6 +65,7 @@ body {
 }
 .about__img {
   height: 100%;
+  filter: grayscale(100%);
 }
 .about__description {
   display: flex;
@@ -81,4 +82,67 @@ body {
 .about__description-subtitle {
   font-weight: 200;
   text-align: justify;
+}
+.skills {
+  padding: 50px 30px;
+  width: 250px;
+  background-color: #eeeeee;
+  color: #393e46;
+}
+.skills__title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  border-bottom: #393e46 1px solid;
+  margin-bottom: 50px;
+}
+.skills__wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.skill__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.skill__item-name {
+  font-weight: 700;
+}
+.skill__item-persentage {
+  font-weight: 400;
+}
+.skill__bar {
+  margin-bottom: 10px;
+  height: 5px;
+  background: #8d98aa;
+}
+.skill__bar-html {
+  height: 100%;
+  width: 80%;
+  background: #393e46;
+}
+.skill__bar-css {
+  height: 100%;
+  width: 80%;
+  background: #393e46;
+}
+.skill__bar-js {
+  height: 100%;
+  width: 30%;
+  background: #393e46;
+}
+.skill__bar-git {
+  height: 100%;
+  width: 30%;
+  background: #393e46;
+}
+.skill__bar-figma {
+  height: 100%;
+  width: 75%;
+  background: #393e46;
+}
+.skill__bar-photoshop {
+  height: 100%;
+  width: 70%;
+  background: #393e46;
 }
