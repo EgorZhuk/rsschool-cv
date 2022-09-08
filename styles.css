@@ -12,7 +12,7 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 0 0;
   background-color: #f7f7f7;
   filter: drop-shadow(2px 2px 10px #929aab);
 }
@@ -229,4 +229,29 @@ body {
 }
 .education_name {
   padding-bottom: 50px;
+}
+.footer {
+  height: 100px;
+  background: #393e46;
+  color: #f7f7f7;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+.footer__list-item {
+  justify-content: center;
+}
+.footer__list-item > a {
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 12px;
+  color: #f7f7f7;
+}
+.footer__img {
+  height: 40px;
+  filter: invert(90%);
 }
