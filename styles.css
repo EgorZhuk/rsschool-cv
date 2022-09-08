@@ -86,9 +86,15 @@ body {
 .hero {
   display: flex;
 }
+.left-side {
+  min-width: 250px;
+}
+.right-side {
+  width: 100%;
+}
 .skills {
   padding: 50px 30px;
-  min-width: 250px;
+
   background-color: #eeeeee;
   color: #393e46;
 }
@@ -154,7 +160,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 50px 30px;
-  width: 100%;
+
   color: #393e46;
 }
 .code__example-title {
@@ -166,4 +172,61 @@ body {
 .code {
   background: #eeeeee;
   box-shadow: 5px 5px 5px #393e4648;
+}
+.lang {
+  padding: 50px 30px;
+  max-width: 250px;
+  background-color: #eeeeee;
+  color: #393e46;
+}
+.lang__title {
+  font-weight: 700;
+  font-size: 24px;
+  border-bottom: #393e46 1px solid;
+  margin-bottom: 50px;
+}
+.lang__items {
+  list-style: none;
+}
+.lang__item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.item-title {
+  font-weight: 700;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  color: #393e46;
+}
+.education__title {
+  font-weight: 700;
+  font-size: 24px;
+  border-bottom: #393e46 1px solid;
+  margin-bottom: 50px;
+}
+.education__data {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 10px;
+}
+.dots {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #393e46;
+}
+.line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #393e46;
+  transform: translate(5px, -5px);
+}
+.education_name {
+  padding-bottom: 50px;
 }
